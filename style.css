@@ -1,0 +1,199 @@
+/*GENERAL*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Crete Round', serif;
+	font-size: 15px;
+	color: #866121;
+	background-color: #D3C37B;
+}
+header{
+	background-color: white;
+	margin-top: 50px;
+	height: 90px;
+	border: #866121 solid 10px;
+}
+header h1{
+	/*padding: 20px;*/
+	/*background-color: yellow;*/
+	float:left;
+	height:150px;
+	padding: 20px 0 90px 80px;
+	font-size: 45px;
+}
+header p{
+	/*padding-l*//*left: 1300px;*/
+	font-size: xx-large;
+	/*background-color: red;*/ 
+	margin-left: 1000px; 
+	padding-top: 20px;
+	
+}
+
+#partie1{
+	height: 400px;
+	padding-top: 70px;
+	background-color: #D3C37B;
+	clear: left;
+	text-align: center;
+}
+h2{
+	background-color: white;
+	border: #866121 solid 10px;
+}
+
+.button{
+	display: block;
+	width: 120px;
+	height:50px;
+	background: white; /*mis la couleur en fond*/
+	color : #866121;
+	opacity: 0.5;
+	font-size: 20px; /*mettre a la bonne taille*/
+	margin: 70px auto; /*centrer le block*/
+	line-height: 50px; /*descendre le "par ici"*/
+	text-align: center; /*centrer le texte*/
+	border-radius: 20px; /*mettre les bord arrondis*/
+}
+.button:hover{
+	background-color: #866121;
+}
+#partie2{
+	margin-top: 50px;
+	background-color: #D3C37B;
+	padding :60px 0;
+}
+#partie2 div{
+	border: #866121 solid 10px;
+}
+#restauration{
+float: left;
+text-align: center;	
+width: 780px;
+height: 270px;
+background-color: white;
+
+}
+#metier{
+text-align: center;
+height: 270px;
+background-color: white;
+}
+ul{
+	list-style: none;
+}
+h2{
+	font-size: 55px; /*Taille de la police h2*/
+}
+h3{
+	font-size: 30px;
+}
+h4{
+font-size: 35px;
+text-transform: uppercase;
+}
+ div p{
+	font-size: 30px;
+	line-height: 20px; 
+	color : #866121;
+	opacity: 0.7;
+	line-height: 30px;
+}
+ul li p{
+	font-size: 24px;
+	line-height: 20px; 
+	color : #866121;
+	opacity: 0.7;
+	line-height: 30px;
+	background-color: white;
+}
+ul li h4{
+	background-color: white;
+}
+#steps ul
+{
+	margin: 80px 0 0 300px;
+	/*marge de 80 en haut et en bas rien sur les cotés*/
+}
+
+#steps ul li
+{
+	width: 300px; 
+	/*largeur a chaque li*/
+	float: left;
+/*	on va les faire flotter les unes a coté des autres*/
+	padding-top: 140px;/*
+	gros padding pour que les icons se mettent au dessus de l'écrit*/
+	text-align: center;
+	margin-right: 10px;
+	/*petite marge entre les paragraphes*/
+}
+
+#steps h4
+{
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+#steps p
+{
+margin-bottom: 20px;
+}
+
+#step1
+{
+	background: url(steps-icon-2.png) no-repeat top center;
+	/*norepeat pour pas qu'il repete l icon*/
+	/*top pour le mettre en haut de l'element
+	center pour le centrer*/
+}
+
+#step2
+{
+	background: url(steps-icon-3.png) no-repeat top center;
+}
+
+#step3{
+	background: url(steps-icon-1.png) no-repeat top center;
+}
+
+#contact
+{
+	margin-top: 90px;
+	padding: 70px 0; 
+	font-size: 24px; 
+	color : #866121;
+	opacity: 0.7;
+ 	text-align: center;
+}
+#contact p{
+background-color: white;
+}
+h3
+{
+	text-transform: uppercase;
+	margin: 300px auto 20px auto;
+	color : #866121;
+	border: #866121 solid 10px;
+	padding-right: 60px;
+	background-color: white;
+
+}
+
+footer
+{
+	height: 260px;
+	background-color: #D3C37B;
+}
+
+footer h1
+{
+	font-size: 80px;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	border: #866121 solid 10px;
+}
+
